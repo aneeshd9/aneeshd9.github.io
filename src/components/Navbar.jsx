@@ -7,9 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">
-        <Link className="text-decoration-none text-white" to="/">
-          <a className="navbar-brand" href="/">Aneesh Dandime</a>
-        </Link>
+        <div className="navbar-brand">Aneesh Dandime</div>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />
         </button>
