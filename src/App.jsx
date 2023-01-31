@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './components/About';
-import Contact from './components/Contact';
+import WorkExperience from './components/WorkExperience';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route element={<About />} path="/" />
-          <Route path="/contact" element={<Contact />} />
+          <Route element={<WorkExperience />} path="/workex" />
         </Routes>
       </BrowserRouter>
     </div>
