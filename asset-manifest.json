@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d6a17ca.css",
-    "main.js": "/static/js/main.53e76b9b.js",
+    "main.css": "/static/css/main.2aa7aa67.css",
+    "main.js": "/static/js/main.c1fdd61c.js",
+    "static/media/bncollege-logo.jpg": "/static/media/bncollege-logo.9bafd6759d70a933a1c6.jpg",
+    "static/media/bits-logo.png": "/static/media/bits-logo.f2ca9285b87673842b32.png",
+    "static/media/umd-logo.webp": "/static/media/umd-logo.7e4beb1937c67cddd2d4.webp",
     "index.html": "/index.html",
-    "main.8d6a17ca.css.map": "/static/css/main.8d6a17ca.css.map",
-    "main.53e76b9b.js.map": "/static/js/main.53e76b9b.js.map"
+    "main.2aa7aa67.css.map": "/static/css/main.2aa7aa67.css.map",
+    "main.c1fdd61c.js.map": "/static/js/main.c1fdd61c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d6a17ca.css",
-    "static/js/main.53e76b9b.js"
+    "static/css/main.2aa7aa67.css",
+    "static/js/main.c1fdd61c.js"
   ]
 }
