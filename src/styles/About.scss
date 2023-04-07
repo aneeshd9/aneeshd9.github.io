@@ -1,0 +1,98 @@
+.bg-dark-custom {
+  background-color: #110f16;
+}
+
+.typewriter {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  animation: typing 3.5s steps(40), blink-caret 0.75s step-end 1s forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: calc(100% - 1em);
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+// .bg-dark-custom {
+//   background-color: #110f16;
+// }
+//
+// .typewriter {
+//   position: relative;
+//   display: inline-block;
+//   overflow: hidden;
+//   border-right: 0.15em solid orange;
+//   white-space: nowrap;
+//   animation: typing 3.5s steps(40), blink-caret 0.75s step-end 1s forwards;
+// }
+//
+// .typewriter::after {
+//   content: "";
+//   display: inline-block;
+//   width: 0.15em;
+//   height: 1em;
+//   margin-left: 2px;
+//   background-color: orange;
+//   animation: blink 1s infinite;
+//   position: absolute;
+//   top: 0;
+//   right: -0.15em;
+// }
+//
+// @keyframes blink {
+//   0% {
+//     opacity: 0;
+//   }
+//   50% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//   }
+// }
+//
+// @keyframes typing {
+//   from {
+//     width: 0;
+//   }
+//   to {
+//     width: calc(100% - 1em);
+//   }
+// }
+//
+// @keyframes blink-caret {
+//   from,
+//   to {
+//     border-color: transparent;
+//   }
+//   50% {
+//     border-color: orange;
+//   }
+// }
